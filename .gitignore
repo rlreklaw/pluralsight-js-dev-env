@@ -61,3 +61,4 @@ typings/
 .idea/
 
 /src/api/db.json
+/dist/
