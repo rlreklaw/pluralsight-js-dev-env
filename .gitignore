@@ -60,3 +60,4 @@ typings/
 # webstorm config files
 .idea/
 
+/src/api/db.json
