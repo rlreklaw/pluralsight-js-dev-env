@@ -46,7 +46,10 @@ export default {
                 minifyCSS: true,
                 minifyURLs: true
             },
-            inject: true
+            inject: true,
+            // properties you define hera are available in index.html
+            // using htmlWebpackPlugin.options.varName
+            trackJSToken: 'tokenassignedbytrackJS'
         }),
 
         // Eliminate duplicate packages when generating bundle
